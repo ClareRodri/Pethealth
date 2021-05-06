@@ -1,0 +1,18 @@
+$list: chubby black bored happy;
+
+.section__article {
+    margin-top: 50px;
+}
+
+.section__article--center {
+    text-align: center;
+}
+
+@each $i in $list {
+	.image-descatada-cat-#{$i} { 
+        background-image: url('/images/cat-#{$i}.png'); 
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px;
+    }
+}

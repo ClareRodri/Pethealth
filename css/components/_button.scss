@@ -1,0 +1,12 @@
+.btn-pet {
+    border-radius: 20px;
+}
+.btn-pet-primary {
+    @extend .btn-pet;
+    background-color: #0d2187;
+    color: white;
+}
+.btn-pet-secondary {
+    @extend .btn-pet;
+    background-color: #b8b2a8;
+}

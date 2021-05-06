@@ -1,0 +1,101 @@
+a {
+  text-decoration: none;
+}
+
+.btn-pet, .btn-pet-primary, .btn-pet-secondary {
+  border-radius: 20px;
+}
+
+.btn-pet-primary {
+  background-color: #0d2187;
+  color: white;
+}
+
+.btn-pet-secondary {
+  background-color: #b8b2a8;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.footer {
+  margin-top: 25px;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 30px;
+}
+
+.footer__column--option {
+  list-style-type: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__title {
+  width: 50%;
+}
+
+.header__container-img {
+  width: 50%;
+  text-align: end;
+}
+
+.logo__image {
+  width: 150px;
+  height: 80px;
+}
+
+.navbar__link {
+  color: #0d2187;
+}
+
+.modal {
+  border-radius: 10px;
+}
+
+.section__article {
+  margin-top: 50px;
+}
+
+.section__article--center {
+  text-align: center;
+}
+
+.image-descatada-cat-chubby {
+  background-image: url("/images/cat-chubby.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-black {
+  background-image: url("/images/cat-black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-bored {
+  background-image: url("/images/cat-bored.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-happy {
+  background-image: url("/images/cat-happy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
