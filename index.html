@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages/home.css">
     <title>PetHealt</title>
 </head>
 <body>
@@ -27,7 +29,7 @@
                     <img class="logo__image" src="images/logo.svg" alt="logo">
                 </a>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
                 <div class="navbar-collapse collapse" id="collapseNavbar">
                     <ul class="navbar-nav ms-auto navbar">
@@ -55,8 +57,10 @@
         <div class="header container">
             <div class="header__title my-auto">
                 <h1>Se parte de nuestra comunidad</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quasi delectus debt quisquam ipsam vel 
-                    dolores accusamus</p>
+                <p>Te invitamos a participar en este mundo de los amantes de las mascotas. 
+                    Registrandote en pethealth podrás tener acceso al servicio de registro de história clínica dígital
+                    que te permitirá tener a la mano siempre su información clínica.
+                </p>
                 <div class="">
                     <a href="user/register.html">
                         <span>Comienza ahora</span>
@@ -75,9 +79,10 @@
             <section class="section">
                 <article class="section__article section__article--center">
                     <h2>Tendrás a la mano toda su información</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Delectus nemo facilis sit ratione, assumenda laborum quis inventore accusantium nobis eos atque 
-                        itaque voluptatem quam odio dolorem error sunt! Nisi, ex.</p>
+                    <br>Por medio de la app Pethealth podrás tener acceso a la información clínica que hayas registrado
+                        de tu mascotas. </br>
+                        Siempre estará a un clic de distancia.
+                    </p>
                     <div class="section_article-image">
                         <img src="/images/section-app-image.png" alt="">
                     </div>
@@ -166,8 +171,6 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
-
-                        
                         </div>
                     </div>
                 </article>
@@ -201,10 +204,10 @@
                                                 <label class="custom-control-label" for="customCheck1">Recordar
                                                     contraseña</label>
                                             </div>
-                                           <div class="text-center">
+                                            <div class="text-center">
                                                 <button type="button" class="btn btn-pet-secondary btn-block text-uppercase" data-bs-dismiss="modal">Cerrar</button>
                                                 <button class="btn btn-pet-primary btn-block text-uppercase" type="submit">Iniciar sesión</button>
-                                           </div>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -219,44 +222,25 @@
     <footer>
         <hr>
         <div class="container">
+            <div class="row">
+                <div class="d-block">© 2021 Postclick, Inc. All Rights Reserved.</div>
+            </div>
             <div class="footer">
                 <div class="footer__column">
-                    <h4 class="footer__column--title">Products</h4>
+                    <h4 class="footer__column--title">Productos</h4>
                     <ul class="footer__column--menu">
                         <li class="footer__column--option">
-                            <a href="https://instapage.com/products/landing-page-builder" class="v7-btn-flat-black">
+                            <a href="/" class="v7-btn-flat-black">
                                 <span>Landing Pages</span>
                             </a>
                         </li>
                         <li class="footer__column--option">
-                            <a href="https://instapage.com/products/personalization" class="v7-btn-flat-black">
-                                <span>Personalization</span>
-                            </a>
-                        </li>
-                        <li class="footer__column--option">
-                            <a href="https://instapage.com/products/conversion-optimization" class="v7-btn-flat-black">
-                                <span>Experimentation</span>
-                            </a>
-                        </li>
-                        <li class="footer__column--option">
-                            <a href="https://instapage.com/products/admap" class="v7-btn-flat-black">
-                                <span>AdMap®</span>
-                            </a>
-                        </li>
-                        <li class="footer__column--option">
-                            <a href="https://instapage.com/products/team-collaboration" class="v7-btn-flat-black">
-                                <span>Collaboration</span>
-                            </a>
-                        </li>
-                        <li class="footer__column--option">
-                            <a href="https://instapage.com/products/converting" class="v7-btn-flat-black">
-                                <span>Converting</span>
+                            <a href="team/contact.html" class="v7-btn-flat-black">
+                                <span>Equipo pethealth</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="d-block">© 2021 Postclick, Inc. All Rights Reserved.</div>
-
             </div>
         </div>
     </footer>
@@ -264,6 +248,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script>
             $(function(){
                 $('.carousel').carousel({
