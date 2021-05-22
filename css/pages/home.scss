@@ -3,11 +3,17 @@ $list: chubby black bored happy;
 .section__article {
     margin-top: 50px;
 }
-
 .section__article--center {
     text-align: center;
 }
-
+.section_article-image {
+	width: 95%;
+    max-width: 1200px;
+	margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
 @each $i in $list {
 	.image-descatada-cat-#{$i} { 
         background-image: url('/images/cat-#{$i}.png'); 

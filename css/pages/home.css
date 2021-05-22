@@ -1,0 +1,46 @@
+.section__article {
+  margin-top: 50px;
+}
+
+.section__article--center {
+  text-align: center;
+}
+
+.section_article-image {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.image-descatada-cat-chubby {
+  background-image: url("/images/cat-chubby.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-black {
+  background-image: url("/images/cat-black.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-bored {
+  background-image: url("/images/cat-bored.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.image-descatada-cat-happy {
+  background-image: url("/images/cat-happy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+/*# sourceMappingURL=home.css.map */
